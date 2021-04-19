@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Luzes</title>
+	<style>
+	*{
+	margin:0;
+	padding:0;
+	}
+	body{
+	background: linear-gradient(#2F2D2E, #000000) no-repeat fixed center;
+	font-family: Arial;
+  }
+	a{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+}
+a:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  color:white;
+  margin-bottom:20px;
+  box-shadow: 2px 2px 5px black;
+}
+.topnav h1 {
+	padding:20px
+}
+td{
+	text-align:center;
+}
+@media all and (max-width:30em){
+a{
+display:block;
+margin:0.4em auto;
+}
+}
+</style>
+</head>
+<body style="text-align:center;">
+<div class="topnav">
+	<h1>Cyber Connect</h1>
+</div>
+<center>
+<table>
+	<tr>
+    <th><a href="http://127.0.0.1:5000/start">Começar</a></th>
+    <th><a href="http://127.0.0.1:5000/stop">Encerrar</a></th>
+  </tr>
+  <tr>
+    <td><a href="http://127.0.0.1:5000/ligar">Ligar</a></td>
+    <td><a href="http://127.0.0.1:5000/desligar">Desligar</a></td>
+  </tr>
+</table>
+</center>
+</body>
+</html>
