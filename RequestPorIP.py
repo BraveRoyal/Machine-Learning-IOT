@@ -1,13 +1,15 @@
+# -*- coding: utf-8 -*-
 #Backend do site do arduino
 #Nota: O codigo funciona apenas quando tem pelomenos 2 linha de dados,
 #-> caso n tenha adicione ligando e desligando e em seguida reinicie o codigo
 
 #Bibliotecas:
 #baixar bibliotecas:
-#pip install -Iv Flask==1.1.2
-#pip install -Iv pandas==1.0.1
-#pip install -Iv scikit-learn==0.24.1
-#pip install -Iv requests==2.25.1
+#pip install -Iv Flask
+#pip install -Iv pandas
+#pip install -Iv scikit-learn
+#pip install -Iv requests
+#pip install openpyxl
 
 #Flask: Usado para a interação do site html com o python
 from flask import Flask, render_template, redirect
